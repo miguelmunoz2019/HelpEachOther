@@ -12,14 +12,10 @@ def home(request):
 
 
 def gerente(request):
-    file = open('WMPApp/docs/Empleados.txt','r')
-    archivo = file.read()
-    file.close()
-    empleados=archivo.split(';')
     name = 'Miguel Muñoz'
     cargo='Gerente'
 
-    args = {'myName': name,  'miCargo': cargo, 'employees': empleados}
+    args = {'myName': name,  'miCargo': cargo}
     return render(request,'WMPApp/Gerente.html',args)
 
 def prueba(request):
