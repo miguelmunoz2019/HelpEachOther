@@ -1,0 +1,38 @@
+.form-signin{
+    background-color: #83D4FF;
+    width:500px;
+    height:350px;
+    padding-left:50px;
+     padding-right:50px;
+     padding-top:50px;
+    position: relative;
+
+
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height:50px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.form-signin .Ingresar {
+  position: relative;
+  box-sizing: border-box;
+ width:150px;
+  height:50px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.sr-only{
+position:absolute;
+width:2px;
+height:2px;
+padding:0;
+overflow:hidden;
+clip:rect(0,0,0,0);
+white-space:nowrap;
+border:0;
+}

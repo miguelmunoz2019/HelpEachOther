@@ -1,0 +1,116 @@
+{% extends 'base2.html' %}
+
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'WMPApp/stylegerente.css' %}" type="text/css">
+
+{% block body %}
+    <br>
+    <div class="container">
+  <div class="row">
+    <div class="col-sm" style="width:100px; padding:0px" >
+        <table  class="table" bgcolor="#83D4FF" style="width:420px">
+        <thead>
+            <th >
+                <font size="5" face="Arial" >&nbsp;&nbsp;&nbsp; <B>Tu equipo</B></font>
+            </th>
+        </thead>
+            <tbody>
+                <tr>
+                    <td>
+                          <div style="width:380px;height:200px;border:1px solid #000;">
+                              <table class="table">
+                                  <tr>
+                                      <td>
+                                            <img src="/static/images/static/Perfil1.JPG"/>
+                                      </td>
+                                      <td >
+                                          <br/>
+                                           <font size="4" face="Arial" ><B>Nombre:</B></font>
+                                             <font size="3" face="Arial" >Manuel Vallejo</font>
+                                             <br/>
+                                           <font size="4" face="Arial"  ><B>Cargo:</B></font>
+                                          <font size="3" face="Arial" >Code Developer</font>
+                                            <br/>
+                                          <font size="4" face="Arial"  ><B>Desempeño:</B></font>
+                                          <font size="3" face="Arial" >3.1</font>
+                                      </td>
+                                  </tr>
+                              </table>
+                          </div>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+                          <div style="width:380px;height:200px;border:1px solid #000;">
+                              <table class="table">
+                                  <tr>
+                                      <td>
+                                          <img src="/static/images/static/Perfil3.JPG"/>
+                                      </td>
+                                      <td>
+                                           <br/>
+                                          <font size="4" face="Arial" ><B>Nombre:</B></font>
+                                             <font size="3" face="Arial" >Carlos Robles</font>
+                                             <br/>
+                                           <font size="4" face="Arial"  ><B>Cargo:</B></font>
+                                          <font size="3" face="Arial" >Software Architect</font>
+                                            <br/>
+                                          <font size="4" face="Arial"  ><B>Desempeño:</B></font>
+                                          <font size="3" face="Arial" >4.0</font>
+                                      </td>
+                                  </tr>
+                              </table>
+                          </div>
+                    </td>
+
+                </tr>
+                 <tr>
+                    <td>
+                          <div style="width:380px;height:200px;border:1px solid #000;">
+                              <table class="table">
+                                  <tr>
+                                      <td>
+                                         <img src="/static/images/static/Perfil1.JPG"/>
+                                      </td>
+                                      <td>
+                                          <br/>
+                                          <font size="4" face="Arial" ><B>Nombre:</B></font>
+                                             <font size="3" face="Arial" >Luis Ruiz</font>
+                                             <br/>
+                                           <font size="4" face="Arial"  ><B>Cargo:</B></font>
+                                          <font size="3" face="Arial" >Asistent</font>
+                                            <br/>
+                                          <font size="4" face="Arial"  ><B>Desempeño:</B></font>
+                                          <font size="3" face="Arial" >3.2</font>
+                                          <br/>
+                                         <br/>
+                                      </td>
+                                  </tr>
+                              </table>
+                          </div>
+                    </td>
+
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="col-sm" style="width:650px;">
+        <br/>
+        <canvas id="myCanvas" width="700" height="370" style="border:1px solid #000000;"></canvas>
+
+         {% include "./bootstrap-calendar/dist/index.html" %}
+
+
+    </div>
+      </div>
+        </div>
+    </body>
+
+ {% load static %}
+    <script  type="text/javascript" src="{% static 'WMPApp/gerenteGraphics.js' %}" ></script>
+
+{% load static %}
+    <link rel="stylesheet" href="{% static 'WMPApp/stylecalendar.css' %}" type="text/css">
+</body>
+{% endblock %}

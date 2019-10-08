@@ -1,0 +1,1 @@
+Manuel Vallejo,Code Developer,3.1,images/static/Perfil1.JPG;  Carlos Robles, Software Architect,4.0, images/static/Perfil3.JPG; Luis Ruiz , Asistent, 3.2,images/static/Perfil1.JPG 
