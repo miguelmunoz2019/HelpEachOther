@@ -18,6 +18,13 @@ def gerente(request):
     args = {'myName': name,  'miCargo': cargo}
     return render(request,'WMPApp/Gerente.html',args)
 
+def empleado(request):
+    name = 'Manuel Vallejo'
+    cargo ='Code Developer'
+
+    args = {'myName': name,  'miCargo': cargo}
+    return render(request,'WMPApp/empleado.html',args)
+
 def prueba(request):
     numbers = [1,2,3,4,5]
     name = 'Miguel Muñoz'
