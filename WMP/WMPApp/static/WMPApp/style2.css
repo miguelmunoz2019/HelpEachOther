@@ -12,4 +12,6 @@
   text-decoration: none;
   font-size: 27px;
 }
-
+.borderless td, .borderless th {
+    border: none;
+}
