@@ -4,8 +4,8 @@
 {% block body %}
 <br>
 <div class="container">
-    <div class="row">
-        <div class="col-sm-5" style="width:100px; padding:0px ; background-color:#85daff">
+    <div class="row" style="border-bottom: 15px solid white">
+        <div class="col-sm-5" style=" background-color:#85daff">
             <table class='table'>
                 <tr>
                     <td>
@@ -26,33 +26,57 @@
                 </tr>
             </table>
         </div>
-        <div class="col-sm-4">
+        <div class="col-sm-3">
             Calendario
         </div>
-        <div class="col-sm-3">
-            Gafica
+        <div class="col-sm-4">
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"></script>
+            <canvas id="bar-chart" width="800" height="450"></canvas>
         </div>
     </div>
-    <div class="row">
+    <div class="row" style="border-bottom: 15px solid white">
         <div class="col-sm bg-success text-white">
-                <font size="5" face="Arial"><B>Resumen</B></font>
+            <font size="5" face="Arial"><B>Resumen</B></font>
         </div>
     </div>
-    <div class="row">
+    <div class="row" style="border-bottom: 15px solid white">
         <div class="col-sm-6">
-            Tabla de trabajos
+            <table class="table table-bordered">
+                <thead class="thead-light">
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Trabajo</th>
+                        <th scope="col">Año</th>
+                        <th scope="col">Costo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Frontend</td>
+                        <td>2015</td>
+                        <td>$200</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Backend</td>
+                        <td>2017</td>
+                        <td>$350</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Movlie App</td>
+                        <td>2018</td>
+                        <td>$400</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
         <div class="col-md-6 mb-4">
             <!--Card-->
             <div class="card card-cascade narrower">
-                <!--Card image-->
-                <div class="view view-cascade gradient-card-header peach-gradient">
-                    <h5 class="mb-0">Custom map</h5>
-                </div>
-                <!--/Card image-->
                 <!--Card content-->
                 <div class="card-body card-body-cascade text-center">
-
                     <!--Google map-->
                     <div id="map-container-google-9" class="z-depth-1-half map-container-5" style="height: 300px">
                         <iframe src="https://maps.google.com/maps?q=bogotat&t=&z=13&ie=UTF8&iwloc=&output=embed"
@@ -67,7 +91,9 @@
     </div>
 </div>
 {% load static %}
+<script type="text/javascript" src="{% static 'WMPApp/chartEmpleado.js' %}"></script>
+{% load static %}
 <link rel="stylesheet" href="{% static 'WMPApp/stylemapa.css' %}" type="text/css">
 {% load static %}
-<link rel="stylesheet" href="{% static 'WMPApp/stylecalendar.css' %}" type="text/css"
+<link rel="stylesheet" href="{% static 'WMPApp/stylecalendar.css' %}" type="text/css" 
 {% endblock %}
