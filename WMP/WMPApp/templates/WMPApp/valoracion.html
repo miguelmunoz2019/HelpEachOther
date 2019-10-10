@@ -1,0 +1,31 @@
+{% extends 'base2.html' %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'WMPApp/stylegerente.css' %}" type="text/css">
+{% block body %}
+<br>
+<div class="container">
+    <div class="row align-items-center" style="border-bottom: 15px solid white; background-color:#85daff">
+        <div class="col-md-auto">
+            <img src="/static/images/static/Perfil1.JPG" />
+        </div>
+        <div class="col-md">
+            <ul style="list-style-type:none;">
+                <li style="font-family:Arial;font-size:300%;"><B>Equipo</B></li>
+                <li style="font-family:Arial;font-size:200%;">Desarrollo</li>
+            </ul>
+        </div>
+        <div class="col-md">
+            <ul style="list-style-type:none;">
+                <li style="font-family:Arial;font-size:300%;"><B>Nombre</B></li>
+                <li style="font-family:Arial;font-size:200%;">Manuel Vallejo</li>
+            </ul>
+        </div>
+        <div class="col-md">
+            <ul style="list-style-type:none;">
+                <li style="font-family:Arial;font-size:300%;"><B>Cargo</B></li>
+                <li style="font-family:Arial;font-size:200%;">Code Developer</li>
+            </ul>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'WMPApp/style1.css' %}" type="text/css">
+{% block body %}
+<br>
+<div class="container">
+    <div class="row flex-xl-nowrap">
+        <div class="col-12 col-md-3 col-xl-2 bd-sidebar">
+            <nav class="collapse bd-links" id="bd-docs-nav">
+                <div class="bd-toc-item">
+                    <ul class="nav bd-sidenav">
+                        <li>
+                            <a href="">
+                                Escritorio
+                            </a></li>
+                        <li>
+                            <a href="">
+                                Resultados
+                            </a></li>
+                    </ul>
+                </div>
+        </div>
+        <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content" role="main">
+            <div class="card">
+                <div class="card-body">
+                    <img src="/static/images/static/Perfil1.JPG" class="rounded-circle">
+                </div>
+            </div>
+        </main>
+    </div>
+</div>
+{% endblock %}

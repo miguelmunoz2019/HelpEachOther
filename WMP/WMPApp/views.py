@@ -1,7 +1,5 @@
 from django.shortcuts import render, HttpResponse
-
 # Create your views here.
-
 
 def home(request):
     numbers = [1,2,3,4,5]
@@ -9,7 +7,6 @@ def home(request):
 
     args = {'myName': name, 'numbers': numbers}
     return render(request, 'WMPApp/home.html', args)
-
 
 def gerente(request):
     name = 'Miguel Muñoz'
@@ -24,6 +21,12 @@ def empleado(request):
 
     args = {'myName': name,  'miCargo': cargo}
     return render(request,'WMPApp/empleado.html',args)
+
+def equipo(request):
+    name = 'Miguel Muñoz'
+
+    args = {'myName': name}
+    return render(request,'WMPApp/equipo.html',args)
 
 def prueba(request):
     numbers = [1,2,3,4,5]
