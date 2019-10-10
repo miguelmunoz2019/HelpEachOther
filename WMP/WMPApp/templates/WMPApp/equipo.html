@@ -3,30 +3,27 @@
 <link rel="stylesheet" href="{% static 'WMPApp/style1.css' %}" type="text/css">
 {% block body %}
 <br>
-<div class="container">
-    <div class="row flex-xl-nowrap">
-        <div class="col-12 col-md-3 col-xl-2 bd-sidebar">
-            <nav class="collapse bd-links" id="bd-docs-nav">
-                <div class="bd-toc-item">
-                    <ul class="nav bd-sidenav">
-                        <li>
-                            <a href="">
-                                Escritorio
-                            </a></li>
-                        <li>
-                            <a href="">
-                                Resultados
-                            </a></li>
+<div class="container-flush">
+    <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content" role="main">
+        <div class="card card-body" style="padding: 5px;">
+            <div class="row align-items-center">
+                <div class="col-sm-auto">
+                    <img src="/static/images/static/worker1.jpg" class="rounded-circle" width="42" height="42">
+                </div>
+                <div class="col">
+                    <ul style="list-style-type:none; margin:0">
+                        <li style="font-family:Arial;font-size:100%;"><B>Manuel Vallejo</B></li>
+                        <li style="font-family:Arial;font-size:100%;">Code Developer</li>
                     </ul>
                 </div>
-        </div>
-        <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content" role="main">
-            <div class="card">
-                <div class="card-body">
-                    <img src="/static/images/static/Perfil1.JPG" class="rounded-circle">
+                <div class="col">
+                    <h5>55% Completado </h5>
+                </div>
+                <div class="col-sm-auto">
+                    <button type="button" class="btn btn-primary">Calificar</button>
                 </div>
             </div>
-        </main>
-    </div>
+        </div>
+    </main>
 </div>
 {% endblock %}
