@@ -23,14 +23,12 @@ def empleado(request):
     return render(request,'WMPApp/empleado.html',args)
 
 def equipo(request):
-    name = 'Miguel Muñoz'
-
-    args = {'myName': name}
+    args = {"nombre": ["Camilo Suarez", "Jonathan Triana"]}
     return render(request,'WMPApp/equipo.html',args)
 
-def prueba(request):
-    numbers = [1,2,3,4,5]
-    name = 'Miguel Muñoz'
+def valorar(request):
+    name = 'Camilo Suarez'
+    args = {'myName': name}
+    return render(request,'WMPApp/valoracion.html',args)
 
-    args = {'myName': name, 'numbers': numbers}
-    return render(request, 'WMPApp/bootstrap-calendar/src/index.html', args)
+

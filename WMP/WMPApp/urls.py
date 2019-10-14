@@ -7,6 +7,6 @@ urlpatterns = [
     path(r'login/', LoginView.as_view(template_name='WMPApp/login.html')),
     path(r'gerente/', views.gerente),
     path(r'empleado/', views.empleado),
-    path(r'prueba/', views.prueba),
     path(r'equipo/', views.equipo),
+    path(r'valorar/', views.valorar),
 ]

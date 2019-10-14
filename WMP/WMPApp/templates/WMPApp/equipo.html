@@ -1,6 +1,7 @@
 {% extends 'base.html' %}
 {% block body %}
 <div class="content">
+    {% for x in nombre %}
     <div class="row">
         <div class="col-md-9">
             <div class="card">
@@ -11,12 +12,16 @@
                         </div>
                         <div class="col">
                             <ul style="list-style-type:none; margin:0">
-                                <li style="font-family:Arial;font-size:100%;"><B>Manuel Vallejo</B></li>
-                                <li style="font-family:Arial;font-size:100%;">Code Developer</li>
+                                <li style="font-family:Arial;font-size:100%;"><B>{{ x }}</B></li>
+                                <li style="font-family:Arial;font-size:100%;">Desarrollador</li>
                             </ul>
                         </div>
-                        <div class="col-sm-auto ">
-                            <button type="button" class="btn btn-primary">Calificar</button>
+                        <div class="col-sm-auto "> 
+                            <a href="/WMP/valorar/"class="button">
+                                <button type="button" class="btn btn-primary" >
+                                    Calificar
+                                </button>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -36,7 +41,7 @@
                                         <td>
                                             <div class="form-check">
                                                 <label class="form-check-label">
-                                                    <input class="fas fa-check" type="checkbox">
+                                                    <input class="form-check-input" type="checkbox">
                                                     <span class="form-check-sign"></span>
                                                 </label>
                                             </div>
@@ -103,6 +108,7 @@
             </div>
         </div>
     </div>
+    {% endfor %}
 </div>
 </div>
 {% endblock %}
