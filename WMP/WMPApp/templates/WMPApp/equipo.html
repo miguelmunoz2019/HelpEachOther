@@ -2,28 +2,109 @@
 {% load static %}
 <link rel="stylesheet" href="{% static 'WMPApp/style1.css' %}" type="text/css">
 {% block body %}
-<br>
-<div class="container-flush">
-    <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content" role="main">
-        <div class="card card-body" style="padding: 5px;">
-            <div class="row align-items-center">
-                <div class="col-sm-auto">
-                    <img src="/static/images/static/worker1.jpg" class="rounded-circle" width="42" height="42">
-                </div>
-                <div class="col">
-                    <ul style="list-style-type:none; margin:0">
-                        <li style="font-family:Arial;font-size:100%;"><B>Manuel Vallejo</B></li>
-                        <li style="font-family:Arial;font-size:100%;">Code Developer</li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <h5>55% Completado </h5>
-                </div>
-                <div class="col-sm-auto">
-                    <button type="button" class="btn btn-primary">Calificar</button>
+<div class="content">
+    <div class="row">
+        <div class="col-md-9">
+            <div class="card">
+                <div class="card-header">
+                    <div class="row align-items-center">
+                        <div class="col-sm-auto">
+                            <img src="/static/images/static/worker1.jpg" class="rounded-circle" width="42" height="42">
+                        </div>
+                        <div class="col">
+                            <ul style="list-style-type:none; margin:0">
+                                <li style="font-family:Arial;font-size:100%;"><B>Manuel Vallejo</B></li>
+                                <li style="font-family:Arial;font-size:100%;">Code Developer</li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-auto ">
+                            <button type="button" class="btn btn-primary">Calificar</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </main>
+        <div class="col-md-9">
+            <div class="card">
+                <div class="card-header ">
+                    <h4 class="card-title">Tareas</h4>
+                </div>
+                <div class="card-body">
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="profile">
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox">
+                                                    <span class="form-check-sign"></span>
+                                                </label>
+                                            </div>
+                                        </td>
+                                        <td>Esta en proceso</td>
+                                        <td class="td-actions text-right">
+                                            <button type="button" rel="tooltip" title="Edit Task"
+                                                class="btn btn-primary btn-link btn-sm">
+                                                <i class="material-icons">edit</i>
+                                            </button>
+                                            <button type="button" rel="tooltip" title="Remove"
+                                                class="btn btn-danger btn-link btn-sm">
+                                                <i class="material-icons">close</i>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox">
+                                                    <span class="form-check-sign"></span>
+                                                </label>
+                                            </div>
+                                        </td>
+                                        <td>Esta en proceso</td>
+                                        <td class="td-actions text-right">
+                                            <button type="button" rel="tooltip" title="Edit Task"
+                                                class="btn btn-primary btn-link btn-sm">
+                                                <i class="material-icons">edit</i>
+                                            </button>
+                                            <button type="button" rel="tooltip" title="Remove"
+                                                class="btn btn-danger btn-link btn-sm">
+                                                <i class="material-icons">close</i>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox">
+                                                    <span class="form-check-sign"></span>
+                                                </label>
+                                            </div>
+                                        </td>
+                                        <td>Esta en proceso</td>
+                                        <td class="td-actions text-right">
+                                            <button type="button" rel="tooltip" title="Edit Task"
+                                                class="btn btn-primary btn-link btn-sm">
+                                                <i class="material-icons">edit</i>
+                                            </button>
+                                            <button type="button" rel="tooltip" title="Remove"
+                                                class="btn btn-danger btn-link btn-sm">
+                                                <i class="material-icons">close</i>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 </div>
 {% endblock %}
