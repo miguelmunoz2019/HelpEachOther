@@ -4,19 +4,21 @@
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+
+    <!--     Fonts and icons     -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <!--     Fonts and icons     -->
-    <link rel="stylesheet" type="text/css"
-        href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
     {% load static %}
     <link rel="stylesheet" href="{% static 'WMPApp/now.css' %}" type="text/css">
     {% block head %}
     <title>HEO</title>
     {% endblock %}
+
 </head>
 
 <body>
@@ -33,19 +35,19 @@
             <div class="sidebar-wrapper" id="sidebar-wrapper">
                 <ul class="nav">
                     <li><a class="nav-link" href="">
-                            <i class="material-icons">dashboard</i>
+                            <i class="fas fa-dice-d6"></i>
                             <p>Proyectos</p>
                         </a>
                     </li>
                     <li>
                         <a href="">
-                            <i class="material-icons">person</i>
+                            <i class="fas fa-user"></i>
                             <p>Perfil</p>
                         </a>
                     </li>
                     <li>
                         <a href="">
-                            <i class="material-icons">people</i>
+                            <i class="fas fa-users"></i>
                             <p>Equipo</p>
                         </a>
                     </li>
@@ -71,7 +73,7 @@
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
                                     aria-haspopup="true" aria-expanded="false">
-                                    <i class="material-icons">person</i>
+                                    <i class="fas fa-user"></i>
                                     <p class="d-lg-none d-md-block">
                                         Account
                                     </p>
@@ -93,6 +95,7 @@
             {% block body %}
             {% endblock %}
         </div>
-    </div>  
+    </div>
 </body>
+
 </html>
