@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="516d7123-5395-41c5-a8d7-f4674c2bfa4d" name="Default Changelist" comment="" />
+    <list default="true" id="516d7123-5395-41c5-a8d7-f4674c2bfa4d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/WMP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/WMP.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WMP/WMPApp/templates/WMPApp/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/WMP/WMPApp/templates/WMPApp/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WMP/WMPApp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/WMP/WMPApp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WMP/WMPApp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/WMP/WMPApp/views.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,9 +24,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1RL1iDNGG03Uz5pDjWX5GRkqoT0" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TEXT" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -96,5 +108,16 @@
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.js" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
