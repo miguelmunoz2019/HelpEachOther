@@ -31,4 +31,3 @@ def valorar(request):
     args = {'myName': name}
     return render(request,'WMPApp/valoracion.html',args)
 
-
