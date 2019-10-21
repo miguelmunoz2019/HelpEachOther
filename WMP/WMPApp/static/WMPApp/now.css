@@ -1428,7 +1428,7 @@ a[data-toggle="collapse"][aria-expanded="true"] .caret,
   display: inline-block;
   position: relative;
   cursor: pointer;
-  padding-left: 35px;
+  padding-left: 5px;
   line-height: 26px;
   margin-bottom: 0;
   transition: color 0.3s linear; }
@@ -1453,7 +1453,7 @@ a[data-toggle="collapse"][aria-expanded="true"] .caret,
 
 .form-check .form-check-sign::after {
   font-family: 'Nucleo Outline';
-  content: "\ea22";
+  content: "\✔️";
   top: 0px;
   text-align: center;
   font-size: 14px;
@@ -3845,4 +3845,3 @@ img {
     -webkit-overflow-scrolling: touch; } }
 
 /*# sourceMappingURL=now-ui-dashboard.css.map */
-

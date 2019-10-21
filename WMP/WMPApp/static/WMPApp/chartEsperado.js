@@ -1,13 +1,13 @@
 var marksData = {
-    labels: ["Actitud", "Desempeño", "Presentacion", "Respeto", "Equipo"],
+    labels: ["Actitud", "Desempeño", "Presentacion", "Respeto", "Equipo", "Conocimiento"],
     datasets: [{
         label: "Esperado",
         backgroundColor: "rgba(200,0,0,0.2)",
-        data: [90, 85, 90, 95, 90]
+        data: [4.5, 4.2, 4.5, 4.7, 4.8, 4.3]
     }, {
         label: "Camilo",
         backgroundColor: "rgba(0,0,200,0.2)",
-        data: [88, 80, 89, 92, 85]
+        data: [4.4, 4, 4.5, 4.5, 4.2, 3.9]
     }]
 };
 
@@ -15,9 +15,9 @@ var chartOptions = {
     scale: {
         ticks: {
             beginAtZero: true,
-            min: 50,
-            max: 100,
-            stepSize: 20
+            min: 1,
+            max: 5,
+            stepSize: 1
         },
         pointLabels: {
             fontSize: 18
