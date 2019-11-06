@@ -2,29 +2,11 @@
 {% block body %}
 <div class="content">
     <div class="row">
-        <div class="col-lg-4">
-            <div class="card card-chart">
-                <div class="card-header">
-                    <h5 class="card-category">Total ventas</h5>
-                    <h4 class="card-title">Ganancias</h4>
-                </div>
-                <div class="card-body">
-                    <div class="chart-area">
-                        <canvas id="line-chart" width="330" height="140"></canvas>
-                    </div>
-                </div>
-                <div class="card-footer">
-                    <div class="stats">
-                        <i class="fas fa-sync"></i> Just Updated
-                    </div>
-                </div>
-            </div>
-        </div>
         <div class="col-lg-4 col-md-6">
             <div class="card card-chart">
                 <div class="card-header">
-                    <h5 class="card-category">Valoraciones</h5>
-                    <h4 class="card-title">Equipos</h4>
+                    <h5 class="card-category">Última valoración</h5>
+                    <h4 class="card-title">Camilo Suarez</h4>
                 </div>
                 <div class="card-body">
                     <div class="chart-area">
@@ -41,17 +23,232 @@
         <div class="col-lg-4 col-md-6">
             <div class="card card-chart">
                 <div class="card-header">
-                    <h5 class="card-category">Progreso 2019</h5>
-                    <h4 class="card-title">Proyectos</h4>
+                    <h5 class="card-category">Desempeño</h5>
+                    <h4 class="card-title">Últimos 7 meses</h4>
                 </div>
                 <div class="card-body">
                     <div class="chart-area">
-                        <canvas id="bar-chart" width="330" height="140"></canvas>
+                        <canvas id="line-chart" width="330" height="140"></canvas>
                     </div>
                 </div>
                 <div class="card-footer">
                     <div class="stats">
-                        <i class="fas fa-stopwatch"></i> Last 7 days
+                        <i class="fas fa-sync"></i> Just Updated
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+            <div class="card card-chart">
+                <div class="card-header">
+                    <h5 class="card-category">Comparación</h5>
+                    <h4 class="card-title">Desempeño contra el equipo</h4>
+                </div>
+                <div class="card-body">
+                    <div style='padding:20px' class="chart-area table-wrapper-scroll-y my-custom-scrollbar">
+                      <table class="table table-borderless">
+                        <thead>
+                          <tr>
+                            <th>#</th>
+                            <th>Empleado</th>
+                            <th>Desempeño actual</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>1</td>
+                            <td>Jonathan Triana</td>
+                            <td align="center"'>4.6</td>
+                          </tr>
+                          <tr>
+                            <td>...</td>
+                            <td>...</td>
+                            <td>...</td>
+                          </tr>
+                          <tr>
+                            <td style='color:orange;'>9</td>
+                            <td style='color:orange;'>Camilo Suarez</td>
+                            <td align="center" style='color:orange;'>3.7 ❗️</td>
+                          </tr>
+                          <tr>
+                            <td>...</td>
+                            <td>...</td>
+                            <td>...</td>
+                          </tr>
+                          <tr>
+                            <td>27</td>
+                            <td>Pedro Rodriguez</td>
+                            <td align="center">2.2</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="stats">
+                        <i class="fas fa-sync"></i> Just Updated
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-4 col-md-6">
+            <div class="card card-chart">
+                <div class="card-header">
+                    <h5 class="card-category">Última valoración</h5>
+                    <h4 class="card-title">Jonathan Triana</h4>
+                </div>
+                <div class="card-body">
+                    <div class="chart-area">
+                        <canvas id="radar-chart0" width="330" height="140"></canvas>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="stats">
+                        <i class="fas fa-sync"></i> Just Updated
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+            <div class="card card-chart">
+                <div class="card-header">
+                    <h5 class="card-category">Desempeño</h5>
+                    <h4 class="card-title">Últimos 10 meses</h4>
+                </div>
+                <div class="card-body">
+                    <div class="chart-area">
+                        <canvas id="line-chart0" width="330" height="140"></canvas>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="stats">
+                        <i class="fas fa-sync"></i> Just Updated
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+            <div class="card card-chart">
+                <div class="card-header">
+                    <h5 class="card-category">Comparación</h5>
+                    <h4 class="card-title">Desempeño contra el equipo</h4>
+                </div>
+                <div class="card-body">
+                    <div style='padding:20px' class="chart-area table-wrapper-scroll-y my-custom-scrollbar">
+                      <table class="table table-borderless">
+                        <thead>
+                          <tr>
+                            <th>#</th>
+                            <th>Empleado</th>
+                            <th>Desempeño actual</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td style='color:green;'>1</td>
+                            <td style='color:green;'>Jonathan Triana</td>
+                            <td align="center" style='color:green;'>4.6 ✅</td>
+                          </tr>
+                          <tr>
+                            <td>...</td>
+                            <td>...</td>
+                            <td>...</td>
+                          </tr>
+                          <tr>
+                            <td>27</td>
+                            <td>Pedro Rodriguez</td>
+                            <td align="center">2.2</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="stats">
+                        <i class="fas fa-sync"></i> Just Updated
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-4 col-md-6">
+            <div class="card card-chart">
+                <div class="card-header">
+                    <h5 class="card-category">Última valoración</h5>
+                    <h4 class="card-title">Jonathan Triana</h4>
+                </div>
+                <div class="card-body">
+                    <div class="chart-area">
+                        <canvas id="radar-chart1" width="330" height="140"></canvas>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="stats">
+                        <i class="fas fa-sync"></i> Just Updated
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+            <div class="card card-chart">
+                <div class="card-header">
+                    <h5 class="card-category">Desempeño</h5>
+                    <h4 class="card-title">Últimos 3 meses</h4>
+                </div>
+                <div class="card-body">
+                    <div class="chart-area">
+                        <canvas id="line-chart1" width="330" height="140"></canvas>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="stats">
+                        <i class="fas fa-sync"></i> Just Updated
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+            <div class="card card-chart">
+                <div class="card-header">
+                    <h5 class="card-category">Comparación</h5>
+                    <h4 class="card-title">Desempeño contra el equipo</h4>
+                </div>
+                <div class="card-body">
+                    <div style='padding:20px' class="chart-area table-wrapper-scroll-y my-custom-scrollbar">
+                      <table class="table table-borderless">
+                        <thead>
+                          <tr>
+                            <th>#</th>
+                            <th>Empleado</th>
+                            <th>Desempeño actual</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>1</td>
+                            <td>Jonathan Triana</td>
+                            <td align="center">4.6</td>
+                          </tr>
+                          <tr>
+                            <td>...</td>
+                            <td>...</td>
+                            <td>...</td>
+                          </tr>
+                          <tr>
+                            <td style="color:red">27</td>
+                            <td style="color:red">Pedro Rodriguez</td>
+                            <td align="center" style="color:red">2.2 ❌</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="stats">
+                        <i class="fas fa-sync"></i> Just Updated
                     </div>
                 </div>
             </div>
@@ -64,5 +261,13 @@
 {% load static %}
 <script type="text/javascript" src="{% static 'WMPApp/chartEsperado.js' %}"></script>
 {% load static %}
+<script type="text/javascript" src="{% static 'WMPApp/chartEsperado0.js' %}"></script>
+{% load static %}
+<script type="text/javascript" src="{% static 'WMPApp/chartEsperado1.js' %}"></script>
+{% load static %}
 <script type="text/javascript" src="{% static 'WMPApp/chartVentas.js' %}"></script>
+{% load static %}
+<script type="text/javascript" src="{% static 'WMPApp/chartVentas0.js' %}"></script>
+{% load static %}
+<script type="text/javascript" src="{% static 'WMPApp/chartVentas1.js' %}"></script>
 {% endblock %}

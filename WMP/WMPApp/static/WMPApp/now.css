@@ -3844,4 +3844,13 @@ img {
     transition-timing-function: cubic-bezier(0.685, 0.0473, 0.346, 1);
     -webkit-overflow-scrolling: touch; } }
 
+    .my-custom-scrollbar {
+    position: relative;
+    height: 200px;
+    overflow: auto;
+    }
+    .table-wrapper-scroll-y {
+    display: block;
+    }
+
 /*# sourceMappingURL=now-ui-dashboard.css.map */
