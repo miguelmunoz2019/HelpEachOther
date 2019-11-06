@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="516d7123-5395-41c5-a8d7-f4674c2bfa4d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WMP/WMPApp/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/WMP/WMPApp/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WMP/WMPApp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/WMP/WMPApp/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WMP/WMPApp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/WMP/WMPApp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WMP/WMPApp/templates/WMPApp/Perfil.html" beforeDir="false" afterPath="$PROJECT_DIR$/WMP/WMPApp/templates/WMPApp/Perfil.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,20 +27,21 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TEXT" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/WMP/WMPApp/static/WMPApp" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Miguel\Desktop\WMP\WMP\WMPApp\templates" />
-      <recent name="C:\Users\Miguel\Desktop\WMP\WMP\WMPApp\static" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Usuario\Desktop\WMP\WMP\WMPApp\static\WMPApp" />
       <recent name="C:\Users\Miguel\Desktop\WMP\WMP\WMPApp\templates\WMPApp" />
       <recent name="C:\Users\Miguel\Desktop\WMP\WMP\WMPApp" />
       <recent name="C:\Users\Miguel\Desktop\WMP\WMP\WMPApp\docs" />
       <recent name="C:\Users\Miguel\Desktop\WMP\WMP\WMPApp\static\images\static" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\migmu\Desktop\New folder (3)\HelpEachOther\WMP\WMPApp\static\WMPApp" />
+      <recent name="C:\Users\Miguel\Desktop\WMP\WMP\WMPApp\templates" />
+      <recent name="C:\Users\Miguel\Desktop\WMP\WMP\WMPApp\static" />
     </key>
   </component>
   <component name="RunDashboard">
