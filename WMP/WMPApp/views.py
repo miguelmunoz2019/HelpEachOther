@@ -30,3 +30,9 @@ def valorar(request):
     name = 'Camilo Suarez'
     args = {'myName': name}
     return render(request,'WMPApp/valoracion.html',args)
+
+
+def perfil(request):
+    name = 'Nicolas Mesa'
+    args = {'myName': name}
+    return render(request,'WMPApp/Perfil.html',args)
