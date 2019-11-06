@@ -1,3 +1,10 @@
+r1=3+Math.random()
+r2=3+Math.random()
+r3=4+Math.random()
+r4=4+Math.random()
+r5=4+Math.random()
+r6=3+Math.random()
+
 var speedData = {
     labels: ["03/2019", "04/2019", "05/2019", "06/2019", "07/2019", "08/2019" ,"09/2019"],
 
@@ -5,7 +12,7 @@ var speedData = {
         label: "Desempeño",
         borderColor: 'orange',
         backgroundColor: '#FFCF9E',
-        data: [4.1, 4.3, 4.3, 4.4, 4.1, 3.9, 3.7],
+        data: [r1,r2,r3,r4,r5,r6],
     }]
 };
 
