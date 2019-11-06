@@ -23,11 +23,10 @@ def empleado(request):
     return render(request,'WMPApp/empleado.html',args)
 
 def equipo(request):
-    args = {"nombre": ["Camilo Suarez", "Jonathan Triana"]}
+    args = {"nombre": ["Camilo Suarez", "Jonathan Triana", "Pedro Rodriguez"]}
     return render(request,'WMPApp/equipo.html',args)
 
 def valorar(request):
     name = 'Camilo Suarez'
     args = {'myName': name}
     return render(request,'WMPApp/valoracion.html',args)
-
