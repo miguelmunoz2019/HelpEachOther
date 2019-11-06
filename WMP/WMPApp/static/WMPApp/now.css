@@ -2768,13 +2768,13 @@ img {
     z-index: 3; }
   .sidebar[data-color="blue"]:after,
   .off-canvas-sidebar[data-color="blue"]:after {
-    background: #2CA8FF; }
+    background: #8C52FF; }
   .sidebar[data-color="blue"] .nav li.active > a:not([data-toggle="collapse"]),
   .off-canvas-sidebar[data-color="blue"] .nav li.active > a:not([data-toggle="collapse"]) {
-    color: #2CA8FF; }
+    color: #8C52FF; }
     .sidebar[data-color="blue"] .nav li.active > a:not([data-toggle="collapse"]) i,
     .off-canvas-sidebar[data-color="blue"] .nav li.active > a:not([data-toggle="collapse"]) i {
-      color: #2CA8FF; }
+      color: #8C52FF; }
   .sidebar[data-color="green"]:after,
   .off-canvas-sidebar[data-color="green"]:after {
     background: #18ce0f; }
