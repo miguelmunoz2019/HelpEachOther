@@ -1,11 +1,11 @@
 var speedData = {
-    labels: ["03/2019", "04/2019", "05/2019", "06/2019", "07/2019", "08/2019" ,"09/2019"],
+    labels: ["07/2019", "08/2019" ,"09/2019"],
 
     datasets: [{
         label: "Desempeño",
-        borderColor: 'orange',
-        backgroundColor: '#FFCF9E',
-        data: [4.1, 4.3, 4.3, 4.4, 4.1, 3.9, 3.7],
+        borderColor: 'red',
+        backgroundColor: '#FFCCCB',
+        data: [2.1, 2.3, 2.2],
     }]
 };
 
@@ -20,7 +20,7 @@ var chartOptions = {
     }
 };
 
-var lineChart = new Chart(document.getElementById("line-chart"), {
+var lineChart = new Chart(document.getElementById("line-chart1"), {
     type: 'line',
     data: speedData,
     options: chartOptions

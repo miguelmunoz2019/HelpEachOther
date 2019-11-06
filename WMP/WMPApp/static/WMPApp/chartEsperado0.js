@@ -5,9 +5,9 @@ var marksData = {
         backgroundColor: "rgba(200,0,0,0.2)",
         data: [4.5, 4.2, 4.5, 4.7, 4.8, 4.3]
     }, {
-        label: "Camilo Suarez",
+        label: "Jonathan Triana",
         backgroundColor: "rgba(0,0,200,0.2)",
-        data: [3.2, 3.4, 4.5, 4.5, 4.1, 3.7]
+        data: [4.7, 4, 4.5, 4.5, 4.6, 4.8]
     }]
 };
 
@@ -28,7 +28,7 @@ var chartOptions = {
     }
 };
 
-var radarChart = new Chart(document.getElementById("radar-chart"), {
+var radarChart = new Chart(document.getElementById("radar-chart0"), {
     type: 'radar',
     data: marksData,
     options: chartOptions
