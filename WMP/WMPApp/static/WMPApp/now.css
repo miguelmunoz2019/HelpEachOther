@@ -1678,7 +1678,7 @@ a[data-toggle="collapse"][aria-expanded="true"] .caret,
   .navbar .button-dropdown .navbar-toggler-bar:nth-child(2) {
     width: 17px; }
   .navbar.navbar-transparent {
-    background-color: #8C52FF;
+    background-color: ##693DBF;
     box-shadow: none;
     color: #FFFFFF; }
   .navbar.bg-white:not(.navbar-transparent) a:not(.dropdown-item):not(.btn) {
