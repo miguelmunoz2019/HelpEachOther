@@ -1,3 +1,8 @@
+r1=3+Math.random()
+r2=3.5+Math.random()
+r3=4+Math.random()
+r4=3+Math.random()
+r5=2.8+Math.random()
 var marksData = {
     labels: ["Actitud", "Desempeño", "Presentacion", "Respeto", "Equipo", "Conocimiento"],
     datasets: [{
@@ -7,7 +12,7 @@ var marksData = {
     }, {
         label: "Jonathan Triana",
         backgroundColor: "rgba(0,0,200,0.2)",
-        data: [4.7, 4, 4.5, 4.5, 4.6, 4.8]
+        data: [r1,r2,r3,r4,r5,r6]
     }]
 };
 

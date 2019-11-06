@@ -1,3 +1,9 @@
+r1=3+Math.random()
+r2=3+Math.random()
+r3=4+Math.random()
+r4=4+Math.random()
+r5=4+Math.random()
+r6=3+Math.random()
 var marksData = {
     labels: ["Actitud", "Desempeño", "Presentacion", "Respeto", "Equipo", "Conocimiento"],
     datasets: [{
@@ -7,7 +13,7 @@ var marksData = {
     }, {
         label: "Camilo Suarez",
         backgroundColor: "rgba(0,0,200,0.2)",
-        data: [3.2, 3.4, 4.5, 4.5, 4.1, 3.7]
+        data: [r1,r2,r3,r4,r5,r6]
     }]
 };
 

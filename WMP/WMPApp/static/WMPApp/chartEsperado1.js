@@ -1,3 +1,9 @@
+r1=2+Math.random()
+r2=2+Math.random()
+r3=4+Math.random()
+r4=2+Math.random()
+r5=2+Math.random()
+r6=2+Math.random()
 var marksData = {
     labels: ["Actitud", "Desempeño", "Presentacion", "Respeto", "Equipo", "Conocimiento"],
     datasets: [{
@@ -7,7 +13,7 @@ var marksData = {
     }, {
         label: "Pedro Rodriguez",
         backgroundColor: "rgba(0,0,200,0.2)",
-        data: [2.3, 2.7, 4, 2.5, 2.6, 2.8]
+        data: [r1,r2,r3,r4,r5,r6]
     }]
 };
 
