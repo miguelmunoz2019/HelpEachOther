@@ -13,7 +13,7 @@ def gerente(request):
     cargo='Gerente'
 
     args = {'myName': name,  'miCargo': cargo}
-    return render(request,'WMPApp/Gerente.html',args)
+    return render(request,'WMPApp/gerente.html',args)
 
 def empleado(request):
     name = 'Manuel Vallejo'
@@ -35,4 +35,4 @@ def valorar(request):
 def perfil(request):
     name = 'Nicolas Mesa'
     args = {'myName': name}
-    return render(request,'WMPApp/Perfil.html',args)
+    return render(request,'WMPApp/perfil.html',args)
